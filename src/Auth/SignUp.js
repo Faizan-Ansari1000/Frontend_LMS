@@ -1,7 +1,7 @@
 import { Button, Input, notification, Typography } from 'antd';
 import { useState } from 'react';
 import ApiInstance from '../config/Apis/ApiInstance';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,Link } from 'react-router-dom';
 import loader_img from '../assets/loader_img.gif';
 
 const { Text } = Typography;
@@ -42,7 +42,8 @@ export default function SignUp() {
             {/* Sir ke liye special message */}
             <div className="absolute top-0 left-0 right-0 bg-cyan-400 text-black text-center py-4">
                 <Text className="text-lg font-semibol">
-                    This project wouldn't have been possible without the guidance of my mentor, Sir Abdul Basit Ahmed (Sr. MERN Stack & React Native Developer).
+                    This project wouldn't have been possible without the guidance of my mentor, Sir Abdul Basit Ahmed (Sr. MERN Stack & React Native Developer).<Link to={"/Admin"}>Admin</Link><Link to={"/StudentPortal"}>Student</Link
+                </Text>
                 </Text>
             </div>
             
