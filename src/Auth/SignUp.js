@@ -1,7 +1,7 @@
 import { Button, Input, notification, Typography } from 'antd';
 import { useState } from 'react';
 import ApiInstance from '../config/Apis/ApiInstance';
-import { useNavigate,Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import loader_img from '../assets/loader_img.gif';
 
 const { Text } = Typography;
@@ -54,8 +54,6 @@ export default function SignUp() {
                 )}
                 <div className="w-full sm:w-96 bg-white p-8 rounded-lg shadow-2xl m-2">
                     <h2 className="text-2xl font-semibold text-center text-cyan-700 mb-6">Sign Up</h2>
-                    <Link to={'/Admin'} className="text-2xl font-semibold text-center text-cyan-700 mb-6">Admin</Link>
-                    <Link to={'/StudentPortal'} className="text-2xl font-semibold text-center text-cyan-700 mb-6">Student</Link>
                     <div className="mb-4">
                         <Input
                             onChange={(e) => setModel({ ...model, name: e.target.value })}
