@@ -42,8 +42,7 @@ export default function SignUp() {
             {/* Sir ke liye special message */}
             <div className="absolute top-0 left-0 right-0 bg-cyan-400 text-black text-center py-4">
                 <Text className="text-lg font-semibol">
-                    This project wouldn't have been possible without the guidance of my mentor, Sir Abdul Basit Ahmed (Sr. MERN Stack & React Native Developer).<Link to={"/Admin"}>Admin</Link><Link to={"/StudentPortal"}>Student</Link
-                </Text>
+                    This project wouldn't have been possible without the guidance of my mentor, Sir Abdul Basit Ahmed (Sr. MERN Stack & React Native Developer).<Link to={"/Admin"}>Admin</Link><Link to={"/StudentPortal"}>Student</Link>
                 </Text>
             </div>
             
